@@ -11,7 +11,7 @@ import os
 from groq import Groq
 from dotenv import load_dotenv
 load_dotenv()
-client = Groq(api_key='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')
+client = Groq(api_key='') #add your api_key
 upload_dir = ""
 
 # Set page layout to wide
